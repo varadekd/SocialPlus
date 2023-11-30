@@ -1,0 +1,25 @@
+# Ignore node_modules, build artifacts, and other frontend-specific files
+/app/node_modules/
+/app/build/
+/app/.env*
+/app/.DS_Store
+/app/Thumbs.db
+/app/.cache/
+/app/coverage/
+/app/yarn-error.log
+
+# Ignore database, logs, and other backend-specific files
+/server/node_modules
+/server/public/packs
+/server/public/packs-test
+/server/yarn-error.log
+/server/.env*
+/server/.DS_Store
+/server/Thumbs.db
+/server/db/*.sqlite3
+/server/db/*.sqlite3-journal
+/server/db/*.sqlite3-*
+/server/log/*.log
+/server/coverage/
+/server/tmp
+
